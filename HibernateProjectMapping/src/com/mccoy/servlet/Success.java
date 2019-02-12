@@ -47,7 +47,7 @@ public class Success extends HttpServlet {
 				pw.append("<td>"+ui.getEmail()+"</td>");
 				pw.append("<td>"+ui.getMobileno()+"</td> </tr>");
 			}
-			 pw.print("</table>");
+			 pw.print("</table>");//added submit buttons
 			 pw.print("<html><form action='Table' method='post'> <input type='submit'   name='action' value='ShowBankers' </html>");
 		}
 		
